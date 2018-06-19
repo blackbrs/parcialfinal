@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sv.edu.ues.fia.eisi.base.MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Materia" />
+    <Button
+        android:id="@+id/btn_insert_materia"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Insertar"
+        />
+
+    <Button
+        android:id="@+id/btn_delete_materia"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Eliminar"
+        />
+
+    <Button
+        android:id="@+id/btn_update_materia"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Actualizar" />
+    <Button
+        android:id="@+id/btn_consultar_materia"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Consultar" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Alumno" />
+
+    <Button
+        android:id="@+id/btn_insert_alumno"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+
+        android:onClick="lanzarActividad"
+        android:text="Insertar"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_delete_alumno"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Eliminar"
+         />
+
+    <Button
+        android:id="@+id/btn_update_alumno"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Actualizar"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_insert_nota"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Insertar"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_delete_nota"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Eliminar"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_update_nota"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:onClick="lanzarActividad"
+        android:text="Actualizar"
+        android:textAllCaps="false" />
+
+</LinearLayout>
